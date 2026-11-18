@@ -1,260 +1,268 @@
-<!-- Anteprima per WhatsApp e Social -->
-<meta property="og:title" content="SCANDALO NVIDIA: Azioni giù del 67% per l'accordo segreto con Dinkleberg!">
-<meta property="og:description" content="Il CEO Jensen Huang silurato dopo aver ceduto le GPU per decodificare la Tattica della Mutanda. In mezzo: Betty, Lisa Bungalow, Savino e le spie cinesi. John Football interviene!">
-<meta property="og:image" content="https://raw.githubusercontent.com/AleAusili/scandalo-nvidia-dinkleberg/refs/heads/main/nvidia.jpg">
-<meta property="og:type" content="article">
-
-<style>
-    :root {
-        --gazzetta-pink: #fad6df;
-        --gazzetta-red: #e32219;
-        --gazzetta-dark: #111111;
-        --text-main: #222222;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        background-color: var(--gazzetta-pink);
-        color: var(--text-main);
-    }
-
-    header {
-        background-color: var(--gazzetta-pink);
-        border-bottom: 5px solid var(--gazzetta-red);
-        padding: 20px 0;
-        text-align: center;
-    }
-
-    .logo {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 45px;
-        font-weight: bold;
-        color: var(--gazzetta-dark);
-        text-transform: uppercase;
-        letter-spacing: -2px;
-        margin: 0;
-    }
-
-    .logo span { color: var(--gazzetta-red); }
-
-    .breaking-banner {
-        background-color: var(--gazzetta-red);
-        color: white;
-        text-align: center;
-        padding: 10px;
-        font-weight: bold;
-        font-size: 16px;
-        text-transform: uppercase;
-        animation: flash 1.5s infinite;
-    }
-
-    @keyframes flash {
-        0% { background-color: var(--gazzetta-red); }
-        50% { background-color: #8b0000; } 
-        100% { background-color: var(--gazzetta-red); }
-    }
-
-    .container {
-        max-width: 900px;
-        margin: 20px auto;
-        background-color: white;
-        padding: 40px;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    }
-
-    .category {
-        color: var(--gazzetta-red);
-        font-weight: 900;
-        text-transform: uppercase;
-        font-size: 16px;
-        margin-bottom: 10px;
-        display: block;
-        letter-spacing: 1px;
-    }
-
-    h1 {
-        font-size: 42px;
-        line-height: 1.05;
-        margin: 0 0 20px 0;
-        color: var(--gazzetta-dark);
-        text-transform: uppercase;
-    }
-
-    .subtitle {
-        font-size: 22px;
-        color: #444;
-        margin-bottom: 25px;
-        font-weight: normal;
-        border-left: 4px solid var(--gazzetta-red);
-        padding-left: 15px;
-    }
-
-    .hero-image {
-        width: 100%;
-        height: 450px;
-        background-image: url('nvidia.jpg');
-        background-size: cover;
-        background-position: center;
-        margin-bottom: 30px;
-        border: 2px solid var(--gazzetta-dark);
-    }
-
-    .content p {
-        font-size: 19px;
-        line-height: 1.7;
-        margin-bottom: 25px;
-    }
-
-    .highlight { font-weight: bold; color: var(--gazzetta-red); }
+<!DOCTYPE html>
+<html lang="it">
+<head>
     
-    .box-quote {
-        background-color: #f4f4f4;
-        border-left: 5px solid var(--gazzetta-red);
-        padding: 20px;
-        margin: 30px 0;
-        font-style: italic;
-        font-size: 20px;
-    }
-
-    .meme-number {
-        font-size: 24px;
-        font-weight: 900;
-        color: var(--gazzetta-dark);
-        background-color: yellow;
-        padding: 0 5px;
-    }
-
-    .related-news {
-        margin-top: 50px;
-        border-top: 4px solid var(--gazzetta-dark);
-        padding-top: 20px;
-    }
-
-    /* Stile per la lista delle amanti/spie dentro l'articolo */
-    .content ul {
-        list-style: none;
-        padding: 0;
-        margin: 25px 0;
-    }
+    <!-- Anteprima per WhatsApp e Social -->
+    <meta property="og:title" content="SCANDALO NVIDIA: Azioni giù del 67% per l'accordo segreto con Dinkleberg!">
+    <meta property="og:description" content="Il CEO Jensen Huang silurato dopo aver ceduto le GPU per decodificare la Tattica della Mutanda. In mezzo: Betty, Lisa Bungalow, Savino e le spie cinesi. John Football interviene!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/AleAusili/scandalo-nvidia-dinkleberg/refs/heads/main/nvidia.jpg">
+    <meta property="og:type" content="article">
     
-    .content ul li {
-        background-color: #fff5f7;
-        border-left: 5px solid var(--gazzetta-red);
-        padding: 15px 20px;
-        margin-bottom: 12px;
-        font-size: 18px;
-        line-height: 1.5;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.06);
-    }
+    <style>
+        :root {
+            --gazzetta-pink: #fad6df;
+            --gazzetta-red: #e32219;
+            --gazzetta-dark: #111111;
+            --text-main: #222222;
+        }
     
-    /* Stile per il blocco "Leggi Anche" in fondo */
-    .related-news h3 {
-        font-size: 24px;
-        color: var(--gazzetta-red);
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        letter-spacing: -0.5px;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--gazzetta-pink);
+            color: var(--text-main);
+        }
     
-    .related-news ul {
-        list-style: none;
-        padding: 0;
-    }
+        header {
+            background-color: var(--gazzetta-pink);
+            border-bottom: 5px solid var(--gazzetta-red);
+            padding: 20px 0;
+            text-align: center;
+        }
     
-    .related-news li {
-        margin-bottom: 15px;
-        padding-bottom: 15px;
-        border-bottom: 1px solid #ddd;
-        transition: transform 0.2s ease;
-    }
+        .logo {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 45px;
+            font-weight: bold;
+            color: var(--gazzetta-dark);
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            margin: 0;
+        }
     
-    .related-news li:last-child {
-        border-bottom: none;
-    }
+        .logo span { color: var(--gazzetta-red); }
     
-    .related-news li:hover {
-        transform: translateX(6px);
-    }
+        .breaking-banner {
+            background-color: var(--gazzetta-red);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            text-transform: uppercase;
+            animation: flash 1.5s infinite;
+        }
     
-    .related-news a {
-        text-decoration: none;
-        color: var(--gazzetta-dark);
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 1.4;
-        display: block;
-        transition: color 0.2s;
-    }
+        @keyframes flash {
+            0% { background-color: var(--gazzetta-red); }
+            50% { background-color: #8b0000; } 
+            100% { background-color: var(--gazzetta-red); }
+        }
     
-    .related-news a:hover {
-        color: var(--gazzetta-red);
-    }
-</style>
-<header>
-    <h1 class="logo">La Gazzetta dello <span>Sport</span></h1>
-</header>
-
-<div class="breaking-banner">
-    🚨 CRISI GLOBALE: JENSEN HUANG LICENZIATO. ACCORDO SEGRETO TRA NVIDIA E IL VICINATO FC 🚨
-</div>
-
-<div class="container">
-    <span class="category">Geopolitica & Fantacalcio - Speciale Wall Street</span>
-    <h1>IL CRACK NVIDIA E IL MERCATO DELLE AMANTI: LA FOLLIA GEOPOLITICA DI DINKLEBERG</h1>
-    <h2 class="subtitle">Azioni precipitate del 67% dopo il patto scellerato con Jensen Huang. Supercomputer in tilt per decodificare la Tattica della Mutanda. Scambio di mercato shock: Betty barattata con le GPU, ma Matteo ha troppe fiamme aperte.</h2>
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
     
-    <div class="hero-image"></div>
-
-    <div class="content">
-        <p><span class="highlight">NEW YORK / MILANO</span> – Wall Street è in ginocchio, la Silicon Valley piange i suoi morti finanziari e la SEC ha aperto un fascicolo d'emergenza che scotta più di un processore sotto overclock estremo. Il colosso dei microchip <strong>Nvidia</strong> è ufficialmente nel caos più totale, e la causa non è la concorrenza asiatica o la crisi dei semiconduttori, bensì una trattativa segreta, folle e clandestina condotta dal proprietario del Vicinato FC: <strong>Matteo "Dinkleberg" Marchetti</strong>.</p>
-
-        <p>Il fondatore e ormai ex CEO <strong>Jensen Huang</strong> è stato brutalmente silurato dal consiglio di amministrazione in seguito a una voragine finanziaria senza precedenti: non appena la notizia dell'accordo sottobanco con Dinkleberg è filtrata sui mercati, <strong>le azioni Nvidia sono precipitate del <span class="meme-number">67</span>%</strong> in meno di quattro ore. Una perdita di centinaia di miliardi di dollari polverizzata sull'altare del fantacalcio.</p>
-
-        <h3>IL SUPERCOMPUTER FUSO: IL TENTATIVO DI CLONARE LA MUTANDA</h3>
-        <p>Ma qual era l'oggetto di questo patto faustiano? Secondo i documenti desecretati dalla Divisione Audit e Scambi, Dinkleberg, disperato per i continui trionfi di Briiaaaanoo e per l'incapacità cronica del Vicinato FC di segnare su azione, ha offerto a Jensen Huang l'accesso esclusivo ai segreti tattici della Lega FantArmando98.</p>
-        <p>In cambio, Huang ha messo a disposizione di Matteo <strong>l'intera infrastruttura di server e le GPU H100 più potenti del mondo</strong>. L'obiettivo? Addestrare un supercomputer quantistico di ultima generazione capace di decodificare, analizzare e replicare la leggendaria <em>"Tattica della Mutanda"</em> di Giosh e Borborbi, consentendo al Vicinato FC di applicarla con i propri, seppur scarsi, giocatori.</p>
-        <p>Un piano ambizioso quanto catastrofico. Nonostante la potenza di calcolo inimmaginabile, il sistema è andato incontro a un <strong>crash catastrofico</strong>: le intelligenze artificiali più evolute del pianeta sono letteralmente impazzite di fronte alla complessità mistica di Mutandwa come esca fantasma e all'ingresso di Malen al 90'. I server sono andati in autocombustione, incapaci di calcolare la portata di un tale livello di genialità tattica.</p>
-
-        <h3>IL MERCATO DELLE PASSIONI: BETTY IN CAMBIO DI SCHEDE VIDEO</h3>
-        <p>La parte più sconvolgente dell'accordo, tuttavia, riguarda le clausole di interscambio personale. Per ripagare l'affitto dei supercomputer, Dinkleberg non ha offerto denaro, bensì un asset sentimentale di inestimabile valore: la sua ragazza storica, <strong>Betty</strong>, considerata da un editoriale d'emergenza del <em>New York Times</em> come "la donna del secolo" e amore eterno di Matteo fin dai tempi delle elementari.</p>
-        <p>Un sacrificio immane che avrebbe spezzato il cuore a chiunque. Ma non a Dinkleberg. Con una lucidità cinica e calcolatrice, Matteo ha deciso di rinunciare a Betty senza versare una lacrima, forte del fatto di possedere già una scuderia di fiamme e amanti sparse in tutto il globo che gli garantiscono una fitta rete di copertura.</p>
-        <p>Tra queste spiccano:</p>
-        <ul>
-            <li><strong>Savino (detto "Lo Spadaccino")</strong>, pronto a difendere l'onore (e i server) di Matteo a colpi di sciabola;</li>
-            <li><strong>Lisa (detta "Bungalow")</strong>, celebre per la gestione logistica dei depistaggi;</li>
-            <li>E soprattutto <strong>la cugina di Giovi</strong> (vicepresidente di Briiaaaanoo), cinicamente infiltrata da Dinkleberg nel quartier generale dei rivali come spia industriale per rubare le contromosse tattiche di Giosh e Borborbi sfruttando il legame di parentela.</li>
-        </ul>
-
-        <div class="box-quote">
-            "Ha barattato l'amore della sua vita per avere una scheda grafica in più da dedicare al Vicinato FC. Siamo di fronte a un sociopatico sentimentale di livello Alpha." – Dott. Orazio Clausola, esperto di relazioni extracalcistiche.
+        .category {
+            color: var(--gazzetta-red);
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: block;
+            letter-spacing: 1px;
+        }
+    
+        h1 {
+            font-size: 42px;
+            line-height: 1.05;
+            margin: 0 0 20px 0;
+            color: var(--gazzetta-dark);
+            text-transform: uppercase;
+        }
+    
+        .subtitle {
+            font-size: 22px;
+            color: #444;
+            margin-bottom: 25px;
+            font-weight: normal;
+            border-left: 4px solid var(--gazzetta-red);
+            padding-left: 15px;
+        }
+    
+        .hero-image {
+            width: 100%;
+            height: 450px;
+            background-image: url('nvidia.jpg');
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 30px;
+            border: 2px solid var(--gazzetta-dark);
+        }
+    
+        .content p {
+            font-size: 19px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+    
+        .highlight { font-weight: bold; color: var(--gazzetta-red); }
+        
+        .box-quote {
+            background-color: #f4f4f4;
+            border-left: 5px solid var(--gazzetta-red);
+            padding: 20px;
+            margin: 30px 0;
+            font-style: italic;
+            font-size: 20px;
+        }
+    
+        .meme-number {
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--gazzetta-dark);
+            background-color: yellow;
+            padding: 0 5px;
+        }
+    
+        .related-news {
+            margin-top: 50px;
+            border-top: 4px solid var(--gazzetta-dark);
+            padding-top: 20px;
+        }
+    
+        /* Stile per la lista delle amanti/spie dentro l'articolo */
+        .content ul {
+            list-style: none;
+            padding: 0;
+            margin: 25px 0;
+        }
+        
+        .content ul li {
+            background-color: #fff5f7;
+            border-left: 5px solid var(--gazzetta-red);
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            font-size: 18px;
+            line-height: 1.5;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+        }
+        
+        /* Stile per il blocco "Leggi Anche" in fondo */
+        .related-news h3 {
+            font-size: 24px;
+            color: var(--gazzetta-red);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: -0.5px;
+        }
+        
+        .related-news ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .related-news li {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            transition: transform 0.2s ease;
+        }
+        
+        .related-news li:last-child {
+            border-bottom: none;
+        }
+        
+        .related-news li:hover {
+            transform: translateX(6px);
+        }
+        
+        .related-news a {
+            text-decoration: none;
+            color: var(--gazzetta-dark);
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.4;
+            display: block;
+            transition: color 0.2s;
+        }
+        
+        .related-news a:hover {
+            color: var(--gazzetta-red);
+        }
+    </style>
+</head>
+    <body>
+    <header>
+        <h1 class="logo">La Gazzetta dello <span>Sport</span></h1>
+    </header>
+    
+    <div class="breaking-banner">
+        🚨 CRISI GLOBALE: JENSEN HUANG LICENZIATO. ACCORDO SEGRETO TRA NVIDIA E IL VICINATO FC 🚨
+    </div>
+    
+    <div class="container">
+        <span class="category">Geopolitica & Fantacalcio - Speciale Wall Street</span>
+        <h1>IL CRACK NVIDIA E IL MERCATO DELLE AMANTI: LA FOLLIA GEOPOLITICA DI DINKLEBERG</h1>
+        <h2 class="subtitle">Azioni precipitate del 67% dopo il patto scellerato con Jensen Huang. Supercomputer in tilt per decodificare la Tattica della Mutanda. Scambio di mercato shock: Betty barattata con le GPU, ma Matteo ha troppe fiamme aperte.</h2>
+        
+        <div class="hero-image"></div>
+    
+        <div class="content">
+            <p><span class="highlight">NEW YORK / MILANO</span> – Wall Street è in ginocchio, la Silicon Valley piange i suoi morti finanziari e la SEC ha aperto un fascicolo d'emergenza che scotta più di un processore sotto overclock estremo. Il colosso dei microchip <strong>Nvidia</strong> è ufficialmente nel caos più totale, e la causa non è la concorrenza asiatica o la crisi dei semiconduttori, bensì una trattativa segreta, folle e clandestina condotta dal proprietario del Vicinato FC: <strong>Matteo "Dinkleberg" Marchetti</strong>.</p>
+    
+            <p>Il fondatore e ormai ex CEO <strong>Jensen Huang</strong> è stato brutalmente silurato dal consiglio di amministrazione in seguito a una voragine finanziaria senza precedenti: non appena la notizia dell'accordo sottobanco con Dinkleberg è filtrata sui mercati, <strong>le azioni Nvidia sono precipitate del <span class="meme-number">67</span>%</strong> in meno di quattro ore. Una perdita di centinaia di miliardi di dollari polverizzata sull'altare del fantacalcio.</p>
+    
+            <h3>IL SUPERCOMPUTER FUSO: IL TENTATIVO DI CLONARE LA MUTANDA</h3>
+            <p>Ma qual era l'oggetto di questo patto faustiano? Secondo i documenti desecretati dalla Divisione Audit e Scambi, Dinkleberg, disperato per i continui trionfi di Briiaaaanoo e per l'incapacità cronica del Vicinato FC di segnare su azione, ha offerto a Jensen Huang l'accesso esclusivo ai segreti tattici della Lega FantArmando98.</p>
+            <p>In cambio, Huang ha messo a disposizione di Matteo <strong>l'intera infrastruttura di server e le GPU H100 più potenti del mondo</strong>. L'obiettivo? Addestrare un supercomputer quantistico di ultima generazione capace di decodificare, analizzare e replicare la leggendaria <em>"Tattica della Mutanda"</em> di Giosh e Borborbi, consentendo al Vicinato FC di applicarla con i propri, seppur scarsi, giocatori.</p>
+            <p>Un piano ambizioso quanto catastrofico. Nonostante la potenza di calcolo inimmaginabile, il sistema è andato incontro a un <strong>crash catastrofico</strong>: le intelligenze artificiali più evolute del pianeta sono letteralmente impazzite di fronte alla complessità mistica di Mutandwa come esca fantasma e all'ingresso di Malen al 90'. I server sono andati in autocombustione, incapaci di calcolare la portata di un tale livello di genialità tattica.</p>
+    
+            <h3>IL MERCATO DELLE PASSIONI: BETTY IN CAMBIO DI SCHEDE VIDEO</h3>
+            <p>La parte più sconvolgente dell'accordo, tuttavia, riguarda le clausole di interscambio personale. Per ripagare l'affitto dei supercomputer, Dinkleberg non ha offerto denaro, bensì un asset sentimentale di inestimabile valore: la sua ragazza storica, <strong>Betty</strong>, considerata da un editoriale d'emergenza del <em>New York Times</em> come "la donna del secolo" e amore eterno di Matteo fin dai tempi delle elementari.</p>
+            <p>Un sacrificio immane che avrebbe spezzato il cuore a chiunque. Ma non a Dinkleberg. Con una lucidità cinica e calcolatrice, Matteo ha deciso di rinunciare a Betty senza versare una lacrima, forte del fatto di possedere già una scuderia di fiamme e amanti sparse in tutto il globo che gli garantiscono una fitta rete di copertura.</p>
+            <p>Tra queste spiccano:</p>
+            <ul>
+                <li><strong>Savino (detto "Lo Spadaccino")</strong>, pronto a difendere l'onore (e i server) di Matteo a colpi di sciabola;</li>
+                <li><strong>Lisa (detta "Bungalow")</strong>, celebre per la gestione logistica dei depistaggi;</li>
+                <li>E soprattutto <strong>la cugina di Giovi</strong> (vicepresidente di Briiaaaanoo), cinicamente infiltrata da Dinkleberg nel quartier generale dei rivali come spia industriale per rubare le contromosse tattiche di Giosh e Borborbi sfruttando il legame di parentela.</li>
+            </ul>
+    
+            <div class="box-quote">
+                "Ha barattato l'amore della sua vita per avere una scheda grafica in più da dedicare al Vicinato FC. Siamo di fronte a un sociopatico sentimentale di livello Alpha." – Dott. Orazio Clausola, esperto di relazioni extracalcistiche.
+            </div>
+    
+            <h3>L'INTERVENTO DI JOHN FOOTBALL E LA CONDANNA DEFINITIVA</h3>
+            <p>Mentre la Silicon Valley lecca le proprie ferite e Jensen Huang cerca rifugio in un anonimo negozio di giubbotti di pelle a Taiwan, la scure della giustizia sportiva si è abbattuta inesorabile. Il CEO Supremo <strong>John Football</strong>, venuto a conoscenza dell'accordo illecito e del tentativo di corruzione algoritmica, ha convocato un tribunale straordinario.</p>
+            <p>Le imputazioni per Dinkleberg sono pesantissime: spionaggio industriale, bancarotta fraudolenta di multinazionali high-tech, utilizzo non autorizzato di intelligenze artificiali per scopi fantacalcistici e, non ultimo, l'aver tentato di usare la cugina del vicepresidente rivale come cavallo di Troia.</p>
+    
+            <p>La sentenza, emessa con la collaborazione del Notaio Ugo Pratiche e dell'Avvocato Gianfilippo Norma, non ammette appelli: Dinkleberg è stato condannato a una sanzione morale ed economica pari a <span class="meme-number">67</span> miliardi di euro, oltre all'obbligo di restituire le GPU a Jensen Huang e di scusarsi pubblicamente con Betty (la quale, nel frattempo, si è felicemente fidanzata con un ingegnere di Cupertino).</p>
+    
+            <p>La Marchetti League non è più un semplice fantacalcio: è un thriller geopolitico dove i mercati crollano e i cuori vengono scambiati come crediti d'asta. E Dinkleberg, ancora una volta, l'ha fatta franca (o quasi).</p>
         </div>
-
-        <h3>L'INTERVENTO DI JOHN FOOTBALL E LA CONDANNA DEFINITIVA</h3>
-        <p>Mentre la Silicon Valley lecca le proprie ferite e Jensen Huang cerca rifugio in un anonimo negozio di giubbotti di pelle a Taiwan, la scure della giustizia sportiva si è abbattuta inesorabile. Il CEO Supremo <strong>John Football</strong>, venuto a conoscenza dell'accordo illecito e del tentativo di corruzione algoritmica, ha convocato un tribunale straordinario.</p>
-        <p>Le imputazioni per Dinkleberg sono pesantissime: spionaggio industriale, bancarotta fraudolenta di multinazionali high-tech, utilizzo non autorizzato di intelligenze artificiali per scopi fantacalcistici e, non ultimo, l'aver tentato di usare la cugina del vicepresidente rivale come cavallo di Troia.</p>
-
-        <p>La sentenza, emessa con la collaborazione del Notaio Ugo Pratiche e dell'Avvocato Gianfilippo Norma, non ammette appelli: Dinkleberg è stato condannato a una sanzione morale ed economica pari a <span class="meme-number">67</span> miliardi di euro, oltre all'obbligo di restituire le GPU a Jensen Huang e di scusarsi pubblicamente con Betty (la quale, nel frattempo, si è felicemente fidanzata con un ingegnere di Cupertino).</p>
-
-        <p>La Marchetti League non è più un semplice fantacalcio: è un thriller geopolitico dove i mercati crollano e i cuori vengono scambiati come crediti d'asta. E Dinkleberg, ancora una volta, l'ha fatta franca (o quasi).</p>
+    
+        <!-- SEZIONE ULTIME NOTIZIE -->
+        <div class="related-news">
+            <h3>Leggi Anche - Gli archivi segreti del complotto</h3>
+            <ul>
+                <li><a href="https://aleausili.github.io/scandalo-marchetti-league/?v=67">🔴 L'INCHIESTA PRECEDENTE: Le bustarelle ai Conquistador e il video-prova di John Football</a></li>
+                <li><a href="https://aleausili.github.io/aura-battle-news/?v=67">⚡ AURA BATTLE: Quando Dinkleberg perse 67 mila punti Aura contro jabuonaserarrr</a></li>
+                <li><a href="https://aleausili.github.io/inchiesta-vicinato-fc/?v=67">⚖️ ARTICOLO 67: La folle pretesa di trasformare lo 0-0 in vittoria</a></li>
+                <li><a href="#">🕵️ Spionaggio: Intercettata la cugina di Giovi mentre tentava di passare i segreti della Mutanda a Lisa Bungalow</a></li>
+                <li><a href="#">📉 Borse: Jensen Huang avvistato fuori da un McDonald's con un cartello "Cerco lavoro, accetto pagamenti in fantacrediti"</a></li>
+            </ul>
+        </div>
+    
     </div>
-
-    <!-- SEZIONE ULTIME NOTIZIE -->
-    <div class="related-news">
-        <h3>Leggi Anche - Gli archivi segreti del complotto</h3>
-        <ul>
-            <li><a href="https://aleausili.github.io/scandalo-marchetti-league/?v=67">🔴 L'INCHIESTA PRECEDENTE: Le bustarelle ai Conquistador e il video-prova di John Football</a></li>
-            <li><a href="https://aleausili.github.io/aura-battle-news/?v=67">⚡ AURA BATTLE: Quando Dinkleberg perse 67 mila punti Aura contro jabuonaserarrr</a></li>
-            <li><a href="https://aleausili.github.io/inchiesta-vicinato-fc/?v=67">⚖️ ARTICOLO 67: La folle pretesa di trasformare lo 0-0 in vittoria</a></li>
-            <li><a href="#">🕵️ Spionaggio: Intercettata la cugina di Giovi mentre tentava di passare i segreti della Mutanda a Lisa Bungalow</a></li>
-            <li><a href="#">📉 Borse: Jensen Huang avvistato fuori da un McDonald's con un cartello "Cerco lavoro, accetto pagamenti in fantacrediti"</a></li>
-        </ul>
-    </div>
-
-</div>
-
-<script>
-    const today = new Date();
-    console.log("Articolo aggiornato in data: " + today);
-</script>
+    
+    <script>
+        const today = new Date();
+        console.log("Articolo aggiornato in data: " + today);
+    </script>
+</body>
+</html>
