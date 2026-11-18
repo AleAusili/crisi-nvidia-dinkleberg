@@ -131,6 +131,66 @@
         border-top: 4px solid var(--gazzetta-dark);
         padding-top: 20px;
     }
+
+    /* Stile per la lista delle amanti/spie dentro l'articolo */
+    .content ul {
+        list-style: none;
+        padding: 0;
+        margin: 25px 0;
+    }
+    
+    .content ul li {
+        background-color: #fff5f7;
+        border-left: 5px solid var(--gazzetta-red);
+        padding: 15px 20px;
+        margin-bottom: 12px;
+        font-size: 18px;
+        line-height: 1.5;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+    }
+    
+    /* Stile per il blocco "Leggi Anche" in fondo */
+    .related-news h3 {
+        font-size: 24px;
+        color: var(--gazzetta-red);
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        letter-spacing: -0.5px;
+    }
+    
+    .related-news ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .related-news li {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+        transition: transform 0.2s ease;
+    }
+    
+    .related-news li:last-child {
+        border-bottom: none;
+    }
+    
+    .related-news li:hover {
+        transform: translateX(6px);
+    }
+    
+    .related-news a {
+        text-decoration: none;
+        color: var(--gazzetta-dark);
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.4;
+        display: block;
+        transition: color 0.2s;
+    }
+    
+    .related-news a:hover {
+        color: var(--gazzetta-red);
+    }
 </style>
 <header>
     <h1 class="logo">La Gazzetta dello <span>Sport</span></h1>
